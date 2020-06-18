@@ -25,6 +25,7 @@ h1{
 	font-size: 3.3vw;
 	margin-top: 2vh;
 	margin-bottom: 3vh;
+	text-shadow: 4px 4px 6px black;
 }
 
 header{
@@ -103,7 +104,7 @@ header{
 	border-radius: 5vh;
 	overflow: hidden;
 	background-color: #D86D2B;
-	transition: height 1s ease-in-out;
+	transition: height 0.5s ease-in-out;
 }
 
 .linkButton{
@@ -124,8 +125,12 @@ header{
 	height: 65vh;
 	padding-top: 1.7vh;
 	padding-left: 1.3vw;
-	padding-right: 2vw;
+	padding-right: 1.5vw;
+	padding-bottom: 2.5vh;
 	overflow-y: scroll;
+}
+#ContentContainer::-webkit-scrollbar {
+  display: none;
 }
 
 #contentTitle{
@@ -139,7 +144,6 @@ header{
 
 #contentImg{
 	max-width: 100%;
-	background-color: blue;
 	margin-top: 2vh;
 }
 
