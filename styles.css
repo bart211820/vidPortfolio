@@ -78,10 +78,21 @@ header{
 #homeLeft{
 	float: left;
 	width: 55%;
+	overflow-y: scroll;
+	max-height: 95%;
+}
+#homeLeft::-webkit-scrollbar {
+  display: none;
 }
 #homeRight{
 	float: right;
 	width: 45%;
+	height: 95%;
+	background-image: url(img/interface.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	box-shadow: inset 0px 0px 20px 25px rgba(216,109,43,1);
 }
 
 #homeContainer h2{
