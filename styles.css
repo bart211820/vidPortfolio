@@ -16,7 +16,7 @@ body{
 }
 
 .displayNone{
-	display: none;
+	display: none !important;
 }
 
 h1{
@@ -64,6 +64,32 @@ header{
 	background-color: #E49567;
 }
 
+#homeContainer{
+	width: 70%;
+	height: 65vh;
+	border-radius: 5vh;
+	background-color: #D86D2B;
+	margin: 4vh auto;
+	padding-top: 1.7vh;
+	padding-left: 1.3vw;
+	padding-right: 2vw;
+}
+#homeLeft{
+	float: left;
+	width: 55%;
+}
+#homeRight{
+	float: right;
+	width: 45%;
+}
+
+#homeContainer h2{
+	font-size: 36px;
+}
+#homeContainer p{
+	font-size: 16px;
+}
+
 #display{
 	width: 70%;
 	margin: 0px auto;
@@ -77,7 +103,7 @@ header{
 	border-radius: 5vh;
 	overflow: hidden;
 	background-color: #D86D2B;
-	height: 27vh;
+	transition: height 1s ease-in-out;
 }
 
 .linkButton{
@@ -87,6 +113,7 @@ header{
 	font-size: 4vh;
 	line-height: 8.3vh;
 	cursor: pointer;
+	border-bottom: 1px solid #E49567;
 }
 
 #ContentContainer{
