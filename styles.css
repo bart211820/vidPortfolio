@@ -1,0 +1,123 @@
+body{
+	overflow: hidden;
+	background-color: #2B79D8;
+	background-image: url(img/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100vh;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.displayNone{
+	display: none;
+}
+
+h1{
+	text-align: center;
+	color: #D86D2B;
+	font-size: 3.3vw;
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}
+
+header{
+	width: 70%;
+	height: 9vh;
+	margin: 0px auto;
+	background-color: #D86D2B;
+	border-radius: 5vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.headerButton{
+	height: 100%;
+	width: 20%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 6vh;
+	color: white;
+	line-height: 8.3vh;
+	cursor: pointer;
+	color: white;
+	border-right: 1px solid #E49567;
+}
+
+#headerHome{
+	font-size: 5vh;
+	line-height: 8.6vh;
+}
+#headerPersonal{
+	font-size: 5vh;
+	line-height: 7.2vh;
+}
+
+.activeButton{
+	background-color: #E49567;
+}
+
+#display{
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4vh;
+}
+
+#linksContainer{
+	width: 33%;
+	border-radius: 5vh;
+	overflow: hidden;
+	background-color: #D86D2B;
+	height: 27vh;
+}
+
+.linkButton{
+	height: 9vh;
+	text-align: center;
+	color: white;
+	font-size: 4vh;
+	line-height: 8.3vh;
+	cursor: pointer;
+}
+
+#ContentContainer{
+	width: 62%;
+	border-radius: 5vh;
+	overflow: hidden;
+	background-color: #E49567;
+	height: 65vh;
+	padding-top: 1.7vh;
+	padding-left: 1.3vw;
+	padding-right: 2vw;
+	overflow-y: scroll;
+}
+
+#contentTitle{
+	font-size: 36px;
+}
+
+#contentDesc{
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+#contentImg{
+	max-width: 100%;
+	background-color: blue;
+	margin-top: 2vh;
+}
+
+#contentLink{
+	font-size: 17px;
+	margin-top: 10px;
+    display: block;
+}
