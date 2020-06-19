@@ -51,7 +51,7 @@ var subjects = [
 		"id" : "41", 
 		"name" : "Eigen leerdoel", 
 		"desc" : "We moesten voor de minor ook een eigen leerdoel opzetten en hier zelf aan werken. Ik heb gekozen om meer te leren over kleur omdat ik het erg interesant vind. Ik heb hiervoor het boek \"Colour, A workshop for artists and designers\" door David Hornung gelezen en ook verder onderzoek gedaan op andere plaatsen.", 
-		"link" : "?"
+		"link" : "https://www.youtube.com/watch?v=6iaj4IT5YjU"
 	},
 	{
 		"id" : "42", 
